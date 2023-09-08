@@ -1,0 +1,210 @@
+[gd_scene load_steps=33 format=3 uid="uid://cby38cidedwmu"]
+
+[ext_resource type="Texture2D" uid="uid://1i86gkfbrhb5" path="res://2d-assets/boykiss-animated/frame_0_delay-0.16s.png" id="1_1djpy"]
+[ext_resource type="Script" path="res://boykisser.gd" id="1_mjbx4"]
+[ext_resource type="Texture2D" uid="uid://chn277qlshi3x" path="res://2d-assets/kiss-button/button-normal.png" id="2_nxsoq"]
+[ext_resource type="Texture2D" uid="uid://dlwsf4ps07cde" path="res://2d-assets/boykiss-animated/frame_3_delay-0.16s.png" id="4_w3ntj"]
+[ext_resource type="Texture2D" uid="uid://7b085q3faqlo" path="res://2d-assets/boykiss-animated/frame_4_delay-0.1s.png" id="5_8wfhx"]
+[ext_resource type="Texture2D" uid="uid://dadg1brt87746" path="res://2d-assets/boykiss-animated/frame_5_delay-0.11s.png" id="6_a2af2"]
+[ext_resource type="Texture2D" uid="uid://dmjrhvai847bi" path="res://2d-assets/boykiss-animated/frame_6_delay-0.16s.png" id="7_3ijkt"]
+[ext_resource type="Texture2D" uid="uid://0xjlno8kgenc" path="res://2d-assets/boykiss-animated/frame_7_delay-0.1s.png" id="8_6muys"]
+[ext_resource type="Texture2D" uid="uid://drwaen4ejtmpd" path="res://2d-assets/boykiss-animated/frame_8_delay-0.19s.png" id="9_t7hem"]
+[ext_resource type="Texture2D" uid="uid://bvtti468l7172" path="res://2d-assets/kiss-button/button-press.png" id="12_r3d3v"]
+[ext_resource type="Texture2D" uid="uid://be8fv6aq50p1f" path="res://2d-assets/kiss-button/button-hover.png" id="13_04mvd"]
+[ext_resource type="Texture2D" uid="uid://bn48pt7mt8kyl" path="res://2d-assets/heart.png" id="14_43cjv"]
+[ext_resource type="Texture2D" uid="uid://fslyqlvw47n1" path="res://2d-assets/ui-buttons/close.png" id="14_m5avt"]
+[ext_resource type="Texture2D" uid="uid://bbpmdx1g0nv4i" path="res://2d-assets/ui-buttons/move.png" id="15_fl56t"]
+[ext_resource type="Texture2D" uid="uid://cwisomd0hh4ry" path="res://2d-assets/boydie-animated/frame_11_delay-0.05s.jpg" id="18_dej84"]
+[ext_resource type="Texture2D" uid="uid://bkqi4tlegjivg" path="res://2d-assets/boydie-animated/frame_12_delay-0.05s.jpg" id="19_xrhwn"]
+[ext_resource type="Texture2D" uid="uid://g3vq1tmnxqrk" path="res://2d-assets/boydie-animated/frame_13_delay-0.05s.jpg" id="20_xhc07"]
+[ext_resource type="Texture2D" uid="uid://cifstn0ta5fne" path="res://2d-assets/boydie-animated/frame_14_delay-0.05s.jpg" id="21_138jf"]
+[ext_resource type="Texture2D" uid="uid://bnffah850vt7c" path="res://2d-assets/boydie-animated/frame_15_delay-0.05s.jpg" id="22_e73rq"]
+[ext_resource type="Texture2D" uid="uid://cd5qbpkiqgnid" path="res://2d-assets/boydie-animated/frame_16_delay-0.05s.jpg" id="23_djwwu"]
+[ext_resource type="Texture2D" uid="uid://wybp717imh2c" path="res://2d-assets/boydie-animated/frame_17_delay-0.05s.jpg" id="24_tymv5"]
+[ext_resource type="Texture2D" uid="uid://cba8sfya6yg1g" path="res://2d-assets/boydie-animated/frame_18_delay-0.05s.jpg" id="25_suedl"]
+[ext_resource type="Texture2D" uid="uid://brioibgu706o" path="res://2d-assets/boydie-animated/frame_19_delay-0.05s.jpg" id="26_g16fh"]
+[ext_resource type="Texture2D" uid="uid://r1l82y3xtko6" path="res://2d-assets/boydie-animated/frame_20_delay-0.05s.jpg" id="27_15s1h"]
+[ext_resource type="Texture2D" uid="uid://d07tkog3ucl2j" path="res://2d-assets/boydie-animated/frame_21_delay-0.05s.jpg" id="28_ide7j"]
+[ext_resource type="Texture2D" uid="uid://dpybrd2lyk5o2" path="res://2d-assets/boydie-animated/frame_22_delay-0.05s.jpg" id="29_qn151"]
+[ext_resource type="Texture2D" uid="uid://bvcjnvv3kq8hb" path="res://2d-assets/boydie-animated/frame_23_delay-0.05s.jpg" id="30_6mjd2"]
+[ext_resource type="Texture2D" uid="uid://ndd1qrxq5voi" path="res://2d-assets/boydie-animated/frame_24_delay-0.05s.jpg" id="31_uffrx"]
+[ext_resource type="Texture2D" uid="uid://qpri6t3qeaun" path="res://2d-assets/boydie-animated/frame_25_delay-0.05s.jpg" id="32_hynly"]
+[ext_resource type="Texture2D" uid="uid://fbd4fnu8rsys" path="res://2d-assets/boydie-animated/frame_26_delay-0.05s.jpg" id="33_ut2kb"]
+[ext_resource type="Texture2D" uid="uid://b18v7j462btn7" path="res://2d-assets/boydie-animated/frame_27_delay-0.05s.jpg" id="34_6a1s7"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mch2a"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_dej84")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_xrhwn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_xhc07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_138jf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_e73rq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_djwwu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_tymv5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_suedl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_g16fh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_15s1h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_ide7j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_qn151")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_6mjd2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_uffrx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_hynly")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_ut2kb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_6a1s7")
+}],
+"loop": false,
+"name": &"byebye",
+"speed": 25.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_w3ntj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_8wfhx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_a2af2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_3ijkt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_6muys")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_t7hem")
+}, {
+"duration": 1.0,
+"texture": ExtResource("1_1djpy")
+}],
+"loop": false,
+"name": &"happy",
+"speed": 8.0
+}]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_mjbx4")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="KissButton" type="TextureButton" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.76
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 35.0
+offset_top = -0.279999
+offset_right = -35.0
+grow_horizontal = 2
+grow_vertical = 0
+texture_normal = ExtResource("2_nxsoq")
+texture_pressed = ExtResource("12_r3d3v")
+texture_hover = ExtResource("13_04mvd")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="CloseButton" type="TextureButton" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.0
+anchor_top = 0.76
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -53.0
+offset_top = 10.44
+offset_right = -4.0
+offset_bottom = -3.0
+grow_horizontal = 0
+grow_vertical = 0
+texture_normal = ExtResource("14_m5avt")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="MoveButton" type="TextureButton" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.758
+anchor_bottom = 1.0
+offset_left = 3.0
+offset_top = 10.952
+offset_right = 50.0
+offset_bottom = -4.0
+grow_vertical = 0
+texture_normal = ExtResource("15_fl56t")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Boykisser" type="AnimatedSprite2D" parent="."]
+position = Vector2(-2, -1)
+scale = Vector2(0.808333, 0.808333)
+sprite_frames = SubResource("SpriteFrames_mch2a")
+animation = &"happy"
+frame = 6
+centered = false
+
+[node name="HeartParticles" type="CPUParticles2D" parent="."]
+position = Vector2(126, 164)
+emitting = false
+lifetime = 3.0
+one_shot = true
+explosiveness = 1.0
+texture = ExtResource("14_43cjv")
+emission_shape = 1
+emission_sphere_radius = 30.4
+direction = Vector2(0, 0)
+spread = 180.0
+gravity = Vector2(0, -300)
+initial_velocity_min = 81.08
+initial_velocity_max = 148.65
+angle_min = -55.1
+angle_max = 31.2
+scale_amount_min = 0.4
+scale_amount_max = 0.6
+
+[connection signal="pressed" from="Control/KissButton" to="." method="_on_kiss_button_pressed"]
+[connection signal="pressed" from="Control/CloseButton" to="." method="_on_close_button_pressed"]
+[connection signal="button_down" from="Control/MoveButton" to="." method="_on_move_button_button_down"]
+[connection signal="button_up" from="Control/MoveButton" to="." method="_on_move_button_button_up"]
+[connection signal="animation_finished" from="Boykisser" to="." method="_on_boykisser_animation_finished"]
